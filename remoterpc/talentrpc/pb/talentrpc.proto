@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package pb;
+option go_package="./";
+
+
+
+//register start ===
+
+message RegisterReq{
+ string user_name=1;
+ string type=2;
+}
+
+message RegisterResp{
+ string status=1;
+ uint64 admin_id=2;
+}
+
+
+//register end ===
+
+
+//Menu start ===
+message GetMenuTreeReq{
+ uint64 admin_id=1;
+}
+
+message GetMenuTreeResp{
+ string list=1;
+}
+
+//Menu end ===
+
+
+
+
+//dict start ===
+
+//dict end ===
+service Talent{
+ rpc RegisterAdminUser(RegisterReq) returns(RegisterResp);
+ rpc GetMenuFromAdminId(GetMenuTreeReq) returns(GetMenuTreeResp);
+}
+

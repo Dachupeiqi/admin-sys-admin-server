@@ -1,0 +1,21 @@
+Name: adminsys.rpc
+ListenOn: 0.0.0.0:8080
+# 用户RPC调试非必要，上线需要关闭
+Timeout: 10000 # 10s，设置rpc服务的响应的超时时间，若超过10s还未返回则结束请求
+Mode: dev
+
+Etcd:
+  Hosts:
+  - 117.50.197.148:9000
+  Key: adminsys.rpc
+
+
+#Consul:
+#  Host: 117.50.197.148:6700
+#  Key: adminsys.rpc
+
+Log:
+  Mode: file
+  Path: logs/remoterpc/adminsys
+
+

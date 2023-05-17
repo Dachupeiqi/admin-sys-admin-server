@@ -1,0 +1,2 @@
+{"@timestamp":"2023-04-01T18:10:47.760+08:00","caller":"serverinterceptors/statinterceptor.go:72","content":"192.168.0.5:58055 - /rpc.SayHello/SayHello - {\"name\":\"1\"}","duration":"280.6ms","level":"info","span":"5b801eb3632a5da7","trace":"b6c50e47f32e3197edb9d45da416e340"}
+{"@timestamp":"2023-04-01T18:11:01.748+08:00","caller":"serverinterceptors/statinterceptor.go:72","content":"192.168.0.5:58055 - /rpc.SayHello/SayHello - {\"name\":\"1\"}","duration":"228.7ms","level":"info","span":"217ba2e32eef113f","trace":"1c2b163efdf836cbb80203299fb08f16"}

@@ -1,0 +1,24 @@
+
+
+
+model生成（通过数据库链接（方式之一））
+$ cd rpc/model
+//不带缓存-c
+$ goctl model mysql datasource -url="root:123456@tcp(117.50.197.148:8400)/talent-system  " -table="user_basic*" -dir ./model/userBasicModel
+//带缓存-c
+$ goctl model mysql datasource -url="root:123456@tcp(117.50.197.148:8400)/talent-system  " -table="user_basic*" -c -dir ./model/userBasicModel
+
+
+api生成
+$ cd api/doc
+$ goctl api go -api all.api -dir ../
+
+
+
+
+rpc生成
+$ cd rpc/pb
+$goctl rpc protoc hello.proto --go_out=./ --go-grpc_out=./ --zrpc_out=..
+
+grpc测试
+$grpcui -plaintext localhost:8080

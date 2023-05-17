@@ -1,0 +1,2 @@
+{"@timestamp":"2023-04-01T18:14:28.948+08:00","caller":"discov/publisher.go:178","content":"etcd publisher revoke: etcdserver: requested lease not found","level":"error"}
+{"@timestamp":"2023-04-01T18:14:59.556+08:00","caller":"discov/publisher.go:178","content":"etcd publisher revoke: etcdserver: requested lease not found","level":"error"}
