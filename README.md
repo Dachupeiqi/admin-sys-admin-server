@@ -144,20 +144,3 @@ make start
 └── scripts               
 ```
 
-## Contact
-
-<div>
-<img src="http://store.tiannianshou.com/screenshots/gin-admin/wechat.jpeg" width="256"alt="wechat" />
-<img src="http://store.tiannianshou.com/screenshots/gin-admin/qqgroup.jpeg" width="256" alt="qqgroup" />
-</div>
-
-## MIT License
-
-    Copyright (c) 2021 Lyric
-
-[reportcard-url]: https://goreportcard.com/report/github.com/LyricTian/gin-admin
-[reportcard-image]: https://goreportcard.com/badge/github.com/LyricTian/gin-admin
-[godoc-url]: https://pkg.go.dev/github.com/LyricTian/gin-admin/v8
-[godoc-image]: https://godoc.org/github.com/LyricTian/gin-admin?status.svg
-[license-url]: http://opensource.org/licenses/MIT
-[license-image]: https://img.shields.io/npm/l/express.svg
